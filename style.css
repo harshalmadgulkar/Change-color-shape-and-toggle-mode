@@ -24,8 +24,8 @@ body {
   left: 80vw;
 }
 
-#check{
-    display: none;
+#check {
+  display: none;
 }
 
 .button {
@@ -37,11 +37,11 @@ body {
   transition: 0.2s;
 }
 
-.button i{
-    position: absolute;
-    top: 2vh;
-    left: 1vw;
-    transition: 0.2s;
+.button i {
+  position: absolute;
+  top: 2vh;
+  left: 1vw;
+  transition: 0.2s;
 }
 
 .button::before {
@@ -56,15 +56,15 @@ body {
 }
 
 input:checked + .button {
-    background-color:#20096d;
+  background-color: #20096d;
 }
 
 input:checked + .button::before {
-    transform: translateX(40px);
+  transform: translateX(40px);
 }
 
 input:checked + .button i {
-    transform: translateX(40px);
+  transform: translateX(40px);
 }
 
 /* Color and shape */
@@ -139,13 +139,13 @@ input:checked + .button i {
 
 /* buttons */
 
-#buttonSection{
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    left: 30vw;
+#buttonSection {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 30vw;
 }
 
 #btn_changeColor,
@@ -165,4 +165,12 @@ input:checked + .button i {
 
 .threeButton:hover {
   box-shadow: 0px 0px 15px 10px gray;
+}
+
+@media screen and (max-width: 600px) {
+  #btn_changeColor,
+  #btn_changeShape,
+  #btn_changeBoth {
+    display: block;
+  }
 }
