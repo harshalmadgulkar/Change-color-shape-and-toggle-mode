@@ -5,6 +5,7 @@
 
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
 /* Heading */
@@ -21,7 +22,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  left: 80vw;
+  left: 30vw;
 }
 
 #check {
@@ -69,12 +70,12 @@ input:checked + .button i {
 
 /* Color and shape */
 #color {
-  background-color: white;
+  /* background-color: white; */
   height: 300px;
   width: 300px;
   border-radius: 50%;
   position: relative;
-  margin-left: 40%;
+  margin-left: 35%;
   transition: all ease 900ms;
 }
 
@@ -141,11 +142,9 @@ input:checked + .button i {
 
 #buttonSection {
   position: relative;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  left: 30vw;
 }
 
 #btn_changeColor,
@@ -167,10 +166,28 @@ input:checked + .button i {
   box-shadow: 0px 0px 15px 10px gray;
 }
 
-@media screen and (max-width: 600px) {
-  #btn_changeColor,
-  #btn_changeShape,
-  #btn_changeBoth {
+@media screen and (max-width: 500px) {
+
+  #color {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 12%;
+    transition: all ease 900ms;
+  }
+
+  #buttonSection div {
     display: block;
   }
+
+  .threeButton {
+    height: 30px;
+    width: 150px;
+    position: relative;
+    margin-top: 15px;
+    transition: all ease 600ms;
+  }
+  
+
 }
