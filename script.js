@@ -53,10 +53,10 @@ checkbox.addEventListener('change', function() {
   if (this.checked) {
     body[0].style.backgroundColor = 'black';
     heading.style.color = 'white';
-    console.log("Checkbox is checked..");
+    // console.log("Checkbox is checked..");
   } else {
     body[0].style.backgroundColor = 'white';
     heading.style.color = 'black';
-    console.log("Checkbox is not checked..");
+    // console.log("Checkbox is not checked..");
   }
 });

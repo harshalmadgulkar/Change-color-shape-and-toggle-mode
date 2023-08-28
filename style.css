@@ -167,6 +167,31 @@ input:checked + .button i {
   box-shadow: 0px 0px 15px 10px gray;
 }
 
+/* GitHub Link Repository */
+#gitrepolink a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#gitrepolink a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#gitrepolink a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#gitrepolink a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 500px) {
 
   #color {
