@@ -168,28 +168,17 @@ input:checked + .button i {
 }
 
 /* GitHub Link Repository */
-#gitrepolink a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-#gitrepolink a:visited {
-  color: pink;
+#gitrepolink a {
+  color: rgb(255, 0, 200);
   background-color: transparent;
   text-decoration: none;
 }
 
 #gitrepolink a:hover {
-  color: red;
+  color: rgb(255, 0, 200);
   background-color: transparent;
   text-decoration: underline;
-}
-
-#gitrepolink a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 500px) {
